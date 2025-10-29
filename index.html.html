@@ -1,0 +1,72 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" /><meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Brown Boys Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topnav">
+  <div class="brand">Brown Boys</div>
+  <nav class="navlinks">
+    <a href="portfolio.html" class="active">Portfolio</a>
+    <a href="scripting.html">Scripting Work</a>
+    <a href="services.html">Other Services</a>
+    <a href="pricing.html">Pricing</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<main class="content">
+  <section class="hero slide">
+    <h1>Brown Boys Portfolio</h1>
+    <p class="lead">Fast. Precise. Experienced with high-level Lua systems and game architecture.</p>
+    <div class="cards">
+      <div class="card">
+        <h3>Skills</h3>
+        <ul>
+          <li>Leadership</li>
+          <li>Fast iteration</li>
+          <li>Lua & Roblox API</li>
+          <li>Networked systems & replication</li>
+          <li>UI scripting</li>
+        </ul>
+      </div>
+      <div class="card about">
+        <h3>About Me</h3>
+        <p>Dedicated scripter with 2.5+ years of Lua experience. I build clean, maintainable systems — from race logic to server-client frameworks. Based in the U.S.</p>
+        <p><strong>Fun fact!</strong> I coded this website myself.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="services slide">
+    <div class="card">
+      <h2>Scripting Service</h2>
+      <p class="lead">I tackle hard scripting problems — vehicle physics, predictive correction, secure economy systems, AI squads, replication fixes, and complex UI frameworks.</p>
+      <div style="margin-top:12px;">
+        <a class="btn" href="pricing.html">See prices</a>
+        <a class="btn ghost" href="scripting.html">See scripting work</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="reviews slide">
+    <h2>Reviews</h2>
+    <div class="carousel">
+      <button id="prev" class="carousel-btn">❮</button>
+      <div class="carousel-inner" id="carouselInner">
+        <div class="review-card"><p class="muted">No reviews yet.</p></div>
+      </div>
+      <button id="next" class="carousel-btn">❯</button>
+    </div>
+    <div style="text-align:center"><button id="addReview" class="btn ghost">Create review</button></div>
+  </section>
+</main>
+
+<footer><div class="footer-logo">BROWN BOYS PORTFOLIO</div></footer>
+<script src="script.js"></script>
+</body>
+</html>
